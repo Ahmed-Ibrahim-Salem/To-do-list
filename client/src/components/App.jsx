@@ -31,6 +31,7 @@ function App() {
       <InputArea onAdd={addItem} />
       <div>
         <ul>
+        {/* looping through list items */}
           {items.map((item) => (
             <ToDoItems
               key={item._id}
